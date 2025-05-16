@@ -1,0 +1,16 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+On command of /test the following action needs to be executed and please develop the perfect playwright testing for this complete flow.
+
+1. Navigate to https://admin.cottonblue.ddnsfree.com
+2. wait for the login form to load and all the api calls needs to be completed
+3. Check for the presence of email field, password field and login button
+4. Type the email field with email as "contact@himyt.com" and type the password field with password as "Abraham@2025"
+5. wait for the Login button to get enabled
+6. once login button enabled then click on the login button
+7. After clicking on login button, wait for the page to load completely and also wait for all the api calls to be completely called.
+
+8. then search for the logout and click on logout once found, then wait for the page to laod and all the api calls to be completely done.
