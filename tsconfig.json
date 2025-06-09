@@ -10,6 +10,6 @@
     "rootDir": "./tests",
     "types": ["jest", "node"]
   },
-  "include": ["tests/**/*"],
+  "include": ["tests/**/*", "ignore_list/admin_tickets.test.ts"],
   "exclude": ["node_modules"]
 } 

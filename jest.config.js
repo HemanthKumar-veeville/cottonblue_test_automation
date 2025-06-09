@@ -7,4 +7,6 @@ module.exports = {
   testEnvironment: "node",
   setupFilesAfterEnv: ["./jest.setup.ts"],
   testTimeout: 30000,
+  maxWorkers: 1,
+  reporters: ["default", ["./jest.reporter.js", {}]],
 };
