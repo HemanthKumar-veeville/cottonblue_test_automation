@@ -10,7 +10,7 @@ jest.setTimeout(30000);
 beforeAll(async () => {
   // Launch browser
   global.__GLOBAL_BROWSER__ = await chromium.launch({
-    headless: false
+    headless: true
   });
   const context = await global.__GLOBAL_BROWSER__.newContext({
     ignoreHTTPSErrors: true,
